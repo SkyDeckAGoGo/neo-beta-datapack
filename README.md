@@ -1,5 +1,4 @@
-# neo-beta-datapack
-For Minecraft 20w21a.
+# Neo-Beta datapack for Minecraft 20w21a.
 
 A datapack to bring back beta 1.7.3 esque terrain generation for 1.16.2.
 
