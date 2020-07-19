@@ -71,7 +71,7 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7972607,
+  "sky_color": 7192575,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -87,7 +87,7 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -105,7 +105,9 @@
     ],
     [],
     [
-      "minecraft:birch_other",
+      "betagen:fancy_oak_rain_forest",
+      "betagen:oak",
+      "betagen:birch",
       "minecraft:flower_warm",
       "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
@@ -120,8 +122,8 @@
     ]
   ],
   "scale": 0.4,
-  "temperature": 2.0,
-  "downfall": 2.0,
+  "temperature": 1.5,
+  "downfall": 0.95,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",

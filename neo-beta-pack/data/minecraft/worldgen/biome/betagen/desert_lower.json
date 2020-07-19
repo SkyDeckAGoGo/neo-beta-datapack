@@ -5,38 +5,7 @@
     "ambient": [],
     "misc": [],
     "water_creature": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:wolf",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "creature": [],
     "monster": [
       {
         "type": "minecraft:spider",
@@ -46,7 +15,7 @@
       },
       {
         "type": "minecraft:zombie",
-        "weight": 95,
+        "weight": 19,
         "minCount": 4,
         "maxCount": 4
       },
@@ -71,8 +40,8 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7972607,
-  "surface_builder": "betagen:grass",
+  "sky_color": 8432383,
+  "surface_builder": "betagen:desert",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -82,12 +51,11 @@
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -100,17 +68,17 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "betagen:sand_beach",
-      "betagen:ore_clay"
+      "betagen:sand_beach"
     ],
     [],
     [
-      "minecraft:birch_other",
+      "betagen:sand_beach",
       "minecraft:flower_warm",
+      "minecraft:patch_dead_bush_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
+      "minecraft:patch_sugar_cane_desert",
+      "minecraft:patch_cactus_desert",
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
@@ -119,8 +87,8 @@
     ]
   ],
   "scale": 0.4,
-  "temperature": 1.0,
-  "downfall": 1.0,
+  "temperature": 2.0,
+  "downfall": 0.0,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -130,9 +98,9 @@
     },
     "fog_color": 12638463,
     "water_color": 2374399,
-    "water_fog_color": 4157951
+    "water_fog_color": 329011
   },
-  "precipitation": "rain",
-  "category": "forest",
+  "precipitation": "none",
+  "category": "desert",
   "depth": 0.1
 }

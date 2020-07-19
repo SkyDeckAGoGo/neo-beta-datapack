@@ -1,3 +1,4 @@
+
 {
   "starts": [],
   "spawners": {
@@ -26,6 +27,12 @@
       },
       {
         "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wolf",
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
@@ -65,7 +72,7 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7907327,
+  "sky_color": 7454975,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -81,7 +88,7 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -99,23 +106,25 @@
     ],
     [],
     [
-      "minecraft:flower_warm",
+      "minecraft:taiga_vegetation",
+      "betagen:flower_beta",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "minecraft:trees_water",
-      "betagen:patch_grass"
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "scale": 0.4,
-  "temperature": 1.5,
-  "downfall": 0.2,
+  "temperature": -0.3,
+  "downfall": 0.3,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -127,7 +136,7 @@
     "water_color": 2374399,
     "water_fog_color": 4157951
   },
-  "precipitation": "rain",
-  "category": "plains",
+  "precipitation": "snow",
+  "category": "taiga",
   "depth": 0.1
 }

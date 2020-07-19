@@ -71,7 +71,7 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 8625919,
+  "sky_color": 7454975,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -87,7 +87,7 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -122,8 +122,8 @@
     ]
   ],
   "scale": 0.4,
-  "temperature": 0.0,
-  "downfall": 0.4,
+  "temperature": -0.3,
+  "downfall": 0.3,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",

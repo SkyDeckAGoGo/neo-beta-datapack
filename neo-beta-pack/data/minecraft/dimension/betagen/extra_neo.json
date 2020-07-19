@@ -19,7 +19,7 @@
               }
             },  
             {
-              "biome": "betagen:plains_1",
+              "biome": "betagen:plains_lower",
               "parameters": {
                 "altitude": 0.2,
                 "weirdness": 0,
@@ -39,7 +39,7 @@
               }
             },
             {
-              "biome": "betagen:forest_1",
+              "biome": "betagen:forest_lower",
               "parameters": {
                 "altitude": 0.0,
                 "weirdness": 0,
@@ -59,7 +59,7 @@
               }
             },
             {
-              "biome": "betagen:seasonal_forest_1",
+              "biome": "betagen:seasonal_forest_lower",
               "parameters": {
                 "altitude": 0.1,
                 "weirdness": 0,
@@ -79,7 +79,7 @@
               }
             },       
             {
-              "biome": "betagen:rain_forest_1",
+              "biome": "betagen:rain_forest_lower",
               "parameters": {
                 "altitude": 0.2,
                 "weirdness": 0,
@@ -92,20 +92,40 @@
               "biome": "betagen:shrubland",
               "parameters": {
                 "altitude": 0.3,
-                "weirdness": 0.5,
+                "weirdness": 0.3,
                 "offset": 0,
                 "temperature": -0.1,
                 "humidity": -0.2 
               }
             },
             {
-              "biome": "betagen:shrubland_1",
+              "biome": "betagen:shrubland_lower",
               "parameters": {
                 "altitude": 0.1,
                 "weirdness": 0.2,
                 "offset": 0,
                 "temperature": -0.1,
                 "humidity": -0.2 
+              }
+            },            
+            {
+              "biome": "betagen:swampland",
+              "parameters": {
+                "altitude": 0.3,
+                "weirdness": 0.3,
+                "offset": 0,
+                "temperature": -0.3,
+                "humidity": -0.3 
+              }
+            },
+            {
+              "biome": "betagen:swampland_lower",
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.2,
+                "offset": 0,
+                "temperature": -0.3,
+                "humidity": -0.3 
               }
             },
             {
@@ -119,9 +139,9 @@
               }
             },
             {
-              "biome": "betagen:taiga_1",
+              "biome": "betagen:taiga_lower",
               "parameters": {
-                "altitude": 0.35,
+                "altitude": 0.2,
                 "weirdness": 0,
                 "offset": 0,
                 "temperature": -0.35,
@@ -139,7 +159,7 @@
               }
             },
             {
-              "biome": "betagen:tundra_1",
+              "biome": "betagen:tundra_lower",
               "parameters": {
                 "altitude": 0.4,
                 "weirdness": 0,
@@ -159,7 +179,7 @@
               }
             },
             {
-              "biome": "betagen:savannah_1",
+              "biome": "betagen:savannah_lower",
               "parameters": {
                 "altitude": 0.0,
                 "weirdness": 1,
@@ -179,7 +199,7 @@
               }
             },
             {
-              "biome": "betagen:desert_1",
+              "biome": "betagen:desert_lower",
               "parameters": {
                 "altitude": -0.5,
                 "weirdness": 0,

@@ -57,6 +57,16 @@
                 "temperature": -0.1,
                 "humidity": -0.2 
               }
+            },            
+            {
+              "biome": "betagen:swampland",
+              "parameters": {
+                "altitude": 0.3,
+                "weirdness": 0.3,
+                "offset": 0,
+                "temperature": -0.3,
+                "humidity": -0.3 
+              }
             },
             {
               "biome": "betagen:taiga",

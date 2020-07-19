@@ -29,12 +29,6 @@
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:wolf",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
       }
     ],
     "monster": [
@@ -71,7 +65,7 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7972607,
+  "sky_color": 8366335,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -87,7 +81,7 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -105,23 +99,22 @@
     ],
     [],
     [
-      "minecraft:birch_other",
       "minecraft:flower_warm",
-      "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_melon",
+      "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "minecraft:trees_water"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "scale": 0.4,
-  "temperature": 2.0,
-  "downfall": 2.0,
+  "temperature": 1.15,
+  "downfall": 0.4,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -134,6 +127,6 @@
     "water_fog_color": 4157951
   },
   "precipitation": "rain",
-  "category": "forest",
+  "category": "plains",
   "depth": 0.1
 }

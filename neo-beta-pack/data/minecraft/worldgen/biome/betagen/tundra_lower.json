@@ -5,38 +5,7 @@
     "ambient": [],
     "misc": [],
     "water_creature": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:wolf",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "creature": [],
     "monster": [
       {
         "type": "minecraft:spider",
@@ -52,7 +21,7 @@
       },
       {
         "type": "minecraft:skeleton",
-        "weight": 100,
+        "weight": 20,
         "minCount": 4,
         "maxCount": 4
       },
@@ -71,7 +40,7 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7972607,
+  "sky_color": 7323903,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -87,7 +56,7 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -105,23 +74,22 @@
     ],
     [],
     [
-      "minecraft:birch_other",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
+      "minecraft:flower_warm",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "minecraft:trees_water"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "scale": 0.4,
-  "temperature": 0.8,
-  "downfall": 1.0,
+  "temperature": -0.5,
+  "downfall": 0.05,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -133,7 +101,7 @@
     "water_color": 2374399,
     "water_fog_color": 4157951
   },
-  "precipitation": "rain",
-  "category": "forest",
+  "precipitation": "snow",
+  "category": "icy",
   "depth": 0.1
 }

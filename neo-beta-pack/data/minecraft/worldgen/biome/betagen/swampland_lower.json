@@ -64,7 +64,16 @@
       }
     ]
   },
-    "features": [
+  "spawn_costs": {},
+  "sky_color": 9543423,
+  "surface_builder": "betagen:grass",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
     [],
     [
       "minecraft:lake_water",
@@ -72,7 +81,7 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -86,12 +95,12 @@
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
       "betagen:sand_beach",
-      "betagen:ore_clay"
+      "betagen:ore_clay",
+      "minecraft:trees_water"
     ],
     [],
-    [      
+    [
       "minecraft:flower_warm",
-      "minecraft:patch_grass_plain",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
@@ -103,19 +112,10 @@
     [
       "minecraft:freeze_top_layer"
     ]
-    ],
-  "spawn_costs": {},
-  "sky_color": 7907327,
-  "surface_builder": "betagen:grass",
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
-    ]
-  },
+  ],
   "scale": 0.4,
-  "temperature": 0.9,
-  "downfall": 0.4,
+  "temperature": 1.05,
+  "downfall": 0.67,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -129,5 +129,5 @@
   },
   "precipitation": "rain",
   "category": "plains",
-  "depth": 0.1
+  "depth": 0.4
 }

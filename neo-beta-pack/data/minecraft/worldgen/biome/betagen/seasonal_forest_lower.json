@@ -5,7 +5,38 @@
     "ambient": [],
     "misc": [],
     "water_creature": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:wolf",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "monster": [
       {
         "type": "minecraft:spider",
@@ -21,7 +52,7 @@
       },
       {
         "type": "minecraft:skeleton",
-        "weight": 20,
+        "weight": 100,
         "minCount": 4,
         "maxCount": 4
       },
@@ -40,7 +71,7 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 8364543,
+  "sky_color": 7975167,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -56,7 +87,7 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
@@ -74,22 +105,23 @@
     ],
     [],
     [
+      "betagen:oak_seasonal",
+      "betagen:fancy_oak",
       "minecraft:flower_warm",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "minecraft:trees_water"
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "scale": 0.4,
-  "temperature": 0.0,
-  "downfall": 0.5,
+  "temperature": 1.9,
+  "downfall": 0.65,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -101,7 +133,7 @@
     "water_color": 2374399,
     "water_fog_color": 4157951
   },
-  "precipitation": "snow",
-  "category": "icy",
+  "precipitation": "rain",
+  "category": "forest",
   "depth": 0.1
 }
