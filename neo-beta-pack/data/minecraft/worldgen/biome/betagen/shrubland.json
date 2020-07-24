@@ -65,7 +65,6 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 8366335,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -125,7 +124,8 @@
     },
     "fog_color": 12638463,
     "water_color": 2374399,
-    "water_fog_color": 4157951
+    "water_fog_color": 4157951,
+    "sky_color": 8366335
   },
   "precipitation": "rain",
   "category": "plains",

@@ -72,7 +72,6 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7454975,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -107,7 +106,7 @@
     [],
     [
       "minecraft:taiga_vegetation",
-      "betagen:flower_beta",
+      "minecraft:flower_warm",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
@@ -134,7 +133,8 @@
     },
     "fog_color": 12638463,
     "water_color": 2374399,
-    "water_fog_color": 4157951
+    "water_fog_color": 4157951,
+    "sky_color": 7454975
   },
   "precipitation": "snow",
   "category": "taiga",

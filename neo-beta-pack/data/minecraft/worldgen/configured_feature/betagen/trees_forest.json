@@ -6,6 +6,10 @@
           "config": {
             "features": [
               {
+                "feature": "betagen:birch",
+                "chance": 0.2
+              },
+              {
                 "feature": "betagen:fancy_oak",
                 "chance": 0.1
               }
@@ -13,7 +17,7 @@
             "default": "betagen:oak"
           },
           "type": "minecraft:random_selector",
-          "name": "betagen:trees_seasonal_forest"
+          "name": "betagen:trees_forest"
         },
         "decorator": {
           "config": {
@@ -37,7 +41,7 @@
     },
     "decorator": {
       "config": {
-        "count": 8,
+        "count": 10,
         "extra_chance": 0.1,
         "extra_count": 1
       },

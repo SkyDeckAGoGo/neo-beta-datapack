@@ -7,6 +7,34 @@
         "biome_source": {
           "type": "minecraft:multi_noise",
           "seed": 0,
+          "humidity_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "altitude_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "weirdness_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "temperature_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
           "biomes": [
             {
               "biome": "betagen:plains",

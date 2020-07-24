@@ -1,0 +1,53 @@
+
+{
+  "type": "betagen:betaworld",
+     "generator": {
+        "type": "minecraft:noise",
+        "seed": 1772835215,
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "seed": 0,
+          "humidity_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "altitude_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "weirdness_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "temperature_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "biomes": [
+            {
+              "biome": "betagen:test",
+              "parameters": {
+                "altitude": 0.4,
+                "weirdness": 0.2,
+                "offset": 0,
+                "temperature": 0.2,
+                "humidity": 0.05 
+              }
+            }
+          ]
+        },
+        "settings": "betagen:neo_beta"
+      }
+}

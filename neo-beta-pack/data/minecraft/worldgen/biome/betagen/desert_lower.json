@@ -40,7 +40,6 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 8432383,
   "surface_builder": "betagen:desert",
   "carvers": {
     "air": [
@@ -72,7 +71,6 @@
     ],
     [],
     [
-      "betagen:sand_beach",
       "minecraft:flower_warm",
       "minecraft:patch_dead_bush_2",
       "minecraft:brown_mushroom_normal",
@@ -98,7 +96,8 @@
     },
     "fog_color": 12638463,
     "water_color": 2374399,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "sky_color": 8432383
   },
   "precipitation": "none",
   "category": "desert",

@@ -30,43 +30,54 @@
                       }
                     }
                   ],
-                  "type": "minecraft:weighted_state_provider"
+                  "type": "minecraft:weighted_state_provider",
+                  "name": "minecraft:weighted_state_provider"
                 },
                 "block_placer": {
-                  "type": "minecraft:simple_block_placer"
+                  "type": "minecraft:simple_block_placer",
+                  "name": "minecraft:simple_block_placer"
                 }
               },
-              "name": "minecraft:flower"
+              "type": "minecraft:flower",
+              "name": "betagen:flower_beta"
             },
             "decorator": {
               "config": {},
-              "name": "minecraft:spread_32_above"
+              "type": "minecraft:spread_32_above",
+                  "name": "minecraft:spread_32_above"
             }
           },
+          "type": "minecraft:decorated_flower",
           "name": "minecraft:decorated_flower"
         },
         "decorator": {
           "config": {
             "outer": {
               "config": {},
+              "type": "minecraft:square",
               "name": "minecraft:square"
             },
             "inner": {
               "config": {},
+              "type": "minecraft:heightmap",
               "name": "minecraft:heightmap"
             }
           },
+          "type": "minecraft:decorated",
           "name": "minecraft:decorated"
         }
       },
+      "type": "minecraft:decorated",
       "name": "minecraft:decorated"
     },
     "decorator": {
       "config": {
         "count": 20
       },
+      "type": "minecraft:count",
       "name": "minecraft:count"
     }
   },
+  "type": "minecraft:decorated",
   "name": "minecraft:decorated"
 }

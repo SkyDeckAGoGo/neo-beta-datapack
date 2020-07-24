@@ -71,7 +71,6 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7975167,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -107,6 +106,7 @@
     [
       "betagen:oak_seasonal",
       "betagen:fancy_oak",
+      "minecraft:patch_grass_forest",
       "minecraft:flower_warm",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
@@ -131,7 +131,8 @@
     },
     "fog_color": 12638463,
     "water_color": 2374399,
-    "water_fog_color": 4157951
+    "water_fog_color": 4157951,
+    "sky_color": 7975167
   },
   "precipitation": "rain",
   "category": "forest",

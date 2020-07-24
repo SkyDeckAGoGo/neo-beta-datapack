@@ -15,7 +15,8 @@
                 },
                 "size": 64
               },
-              "name": "minecraft:ore"
+              "type": "minecraft:ore",
+              "name": "betagen:sand_beach"
             },
             "decorator": {
               "config": {
@@ -23,24 +24,30 @@
                 "top_offset": 62,
                 "maximum": 66
               },
+              "type": "minecraft:range",
               "name": "minecraft:range"
             }
           },
+          "type": "minecraft:decorated",
           "name": "minecraft:decorated"
         },
         "decorator": {
           "config": {},
+          "type": "minecraft:square",
           "name": "minecraft:square"
         }
       },
+      "type": "minecraft:decorated",
       "name": "minecraft:decorated"
     },
     "decorator": {
       "config": {
         "count": 70
       },
+      "type": "minecraft:count",
       "name": "minecraft:count"
     }
   },
+  "type": "minecraft:decorated",
   "name": "minecraft:decorated"
 }

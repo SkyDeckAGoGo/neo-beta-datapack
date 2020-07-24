@@ -71,7 +71,6 @@
     ]
   },
   "spawn_costs": {},
-  "sky_color": 7972607,
   "surface_builder": "betagen:grass",
   "carvers": {
     "air": [
@@ -87,30 +86,18 @@
     ],
     [],
     [
-      "minecraft:monster_room"
+      "betagen:monster_room"
     ],
     [],
     [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-      "minecraft:ore_lapis",
-      "betagen:sand_beach",
-      "betagen:ore_clay"
-    ],
     [],
-    [
-    ],
+    [],
+    [],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.7,
+  "scale": 0.4,
   "temperature": 0.8,
   "downfall": 1.0,
   "effects": {
@@ -122,9 +109,10 @@
     },
     "fog_color": 12638463,
     "water_color": 2374399,
-    "water_fog_color": 4157951
+    "water_fog_color": 4157951,
+    "sky_color": 7972607
   },
   "precipitation": "rain",
   "category": "forest",
-  "depth": 0.2
+  "depth": 0.4
 }
