@@ -1,0 +1,112 @@
+{
+  "starts": [
+    "minecraft:village_desert",
+    "minecraft:pillager_outpost",
+    "minecraft:desert_pyramid",
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal_desert"
+  ],
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 19,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "surface_builder": "minecraft:desert",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:sand_beach"
+    ],
+    [],
+    [
+      "minecraft:flower_warm",
+      "minecraft:patch_dead_bush_2",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane_desert",
+      "minecraft:patch_cactus_desert",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "scale": 0.4,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "fog_color": 12638463,
+    "water_color": 2374399,
+    "water_fog_color": 329011,
+    "sky_color": 8432383
+  },
+  "precipitation": "none",
+  "category": "desert",
+  "depth": 0.1
+}
