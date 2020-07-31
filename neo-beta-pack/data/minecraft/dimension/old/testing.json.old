@@ -1,0 +1,73 @@
+
+{
+  "type": "betagen:betaworld",
+     "generator": {
+        "type": "minecraft:noise",
+        "seed": 1772835215,
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "seed": 0,
+          "humidity_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "altitude_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "weirdness_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "temperature_noise": {
+            "firstOctave": -7,
+            "amplitudes": [
+              1.0,
+              1.0
+            ]
+          },
+          "biomes": [
+            {
+              "biome": "betagen:desert",
+              "parameters": {
+                "altitude": -0.3,
+                "weirdness": 0.0,
+                "offset": 1,
+                "temperature": 0.0,
+                "humidity": 0.0 
+              }
+            },
+            {
+              "biome": "betagen:lower_desert",
+              "parameters": {
+                "altitude": -0.4,
+                "weirdness": 0.0,
+                "offset": 1,
+                "temperature": 0.0,
+                "humidity": 0.0 
+              }
+            },
+            {
+              "biome": "betagen:river",
+              "parameters": {
+                "altitude": -0.5,
+                "weirdness": 0.0,
+                "offset": 1,
+                "temperature": 0.0,
+                "humidity": 0.0 
+              }
+            }
+          ]
+        },
+        "settings": "betagen:extra_neo"
+      }
+}

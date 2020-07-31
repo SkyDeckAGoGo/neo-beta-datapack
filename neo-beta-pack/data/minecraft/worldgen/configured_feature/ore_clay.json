@@ -1,0 +1,53 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "block": "minecraft:sand",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "state": {
+                  "Name": "minecraft:clay"
+                },
+                "size": 12
+              },
+              "type": "minecraft:ore",
+              "name": "minecraft:ore_clay"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 60,
+                "top_offset": 60,
+                "maximum": 67
+              },
+              "type": "minecraft:range",
+              "name": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated",
+          "name": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square",
+          "name": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated",
+      "name": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 1
+      },
+      "type": "minecraft:count",
+      "name": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated",
+  "name": "minecraft:decorated"
+}

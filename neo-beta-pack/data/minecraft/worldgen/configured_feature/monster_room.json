@@ -1,0 +1,44 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {},
+              "type": "minecraft:monster_room",
+              "name": "minecraft:monster_room"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 128
+              },
+              "type": "minecraft:range",
+              "name": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated" ,
+          "name": "minecraft:decorated"        
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square",
+          "name": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated",
+      "name": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 8
+      },
+      "type": "minecraft:count",
+      "name": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated",
+  "name": "minecraft:decorated"
+}
