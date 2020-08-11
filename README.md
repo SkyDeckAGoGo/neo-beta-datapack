@@ -7,6 +7,9 @@ This page is for updates and bug reports.
 For more info on this pack, check out the Planet Minecraft page (https://www.planetminecraft.com/data-pack/neo-beta-datapack-beta-1-7-3-esque-terrain-generation-for-your-1-16-2-worlds/)
 
 # Updates
+V1.4 - 11/08/2020
+- pack updated to 1.16.2!
+
 V1.3 - 31/07/2020
 - pack updated to 1.16.2 pre release 1
 - neo-beta dimension now replaces the overworld upon world gen. no need to spawn yourself in a new dimension.
