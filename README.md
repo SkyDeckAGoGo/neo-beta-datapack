@@ -1,12 +1,16 @@
-# Neo-Beta datapack for Minecraft 1.16.2.
+# Neo-Beta datapack for Minecraft 1.16.5.
 
-A datapack to bring back beta 1.7.3 esque terrain generation for 1.16.2.
+A datapack to bring back beta 1.7.3 esque terrain generation for 1.16.
 
 This page is for updates and bug reports. 
 
 For more info on this pack, check out the Planet Minecraft page (https://www.planetminecraft.com/data-pack/neo-beta-datapack-beta-1-7-3-esque-terrain-generation-for-your-1-16-2-worlds/)
 
 # Updates
+V1.5 - 24/01/2021
+- Few minor changes made to noise and biome distribution. new chunks in existing world will have chunk borders
+- Neo-Beta Plus has been moved to a new repo. Check it out here (https://github.com/SkyDeckAGoGo/neo-beta-plus)
+
 V1.4 - 11/08/2020
 - pack updated to 1.16.2!
 

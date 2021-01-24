@@ -13,29 +13,29 @@
       }
   },
   "noise": {
-    "random_density_offset": true,
-    "amplified": true,
-    "density_factor": 2,
-    "density_offset": -0.02515511419,
     "simplex_surface_noise": true,
+    "random_density_offset": true,
+    "size_vertical": 2,
+    "density_factor": 1.0,
+    "density_offset": -0.46875,
+    "top_slide": {
+      "target": -10,
+      "size": 3,
+      "offset": 0
+    },
     "bottom_slide": {
       "target": -30,
       "size": 0,
       "offset": 0
     },
     "size_horizontal": 1,
-    "size_vertical": 2,
-    "height": 128,
+    "min_y": 0,
+    "height": 256,
     "sampling": {
       "xz_scale": 0.9999999814507745,
       "y_scale": 0.9999999814507745,
-      "xz_factor": 80.0,
+      "xz_factor": 100.0,
       "y_factor": 160.0
-    },
-    "top_slide": {
-      "target": -10,
-      "size": 3,
-      "offset": 0
     }
   },
   "default_block": {

@@ -105,7 +105,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:trees_water"
+      "minecraft:oak_plains",
+      "minecraft:fancy_oak_plains"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -128,5 +129,5 @@
   },
   "precipitation": "rain",
   "category": "plains",
-  "depth": 0.4
+  "depth": 0.1
 }
