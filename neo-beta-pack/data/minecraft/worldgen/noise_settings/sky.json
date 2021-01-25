@@ -1,7 +1,7 @@
 {
   "bedrock_roof_position": -10,
-  "bedrock_floor_position": 0,
-  "sea_level": 64,
+  "bedrock_floor_position": -10,
+  "sea_level": 0,
   "disable_mob_generation": false,
   "structures": {
     "stronghold": {
@@ -13,29 +13,28 @@
       }
   },
   "noise": {
-    "random_density_offset": true,
-    "amplified": true,
-    "density_factor": 2,
-    "density_offset": 0.0725,
     "simplex_surface_noise": true,
+    "size_vertical": 1,
+    "density_factor": 0.0,
+    "density_offset": 0.0,
+    "top_slide": {
+      "target": -500,
+      "size": 70,
+      "offset": -60
+    },
     "bottom_slide": {
       "target": -30,
-      "size": 0,
-      "offset": 0
+      "size": 15,
+      "offset": 10
     },
-    "size_horizontal": 1,
-    "size_vertical": 2,
+    "size_horizontal": 2,
+    "min_y": 50,
     "height": 128,
     "sampling": {
-      "xz_scale": 0.9999999814507745,
-      "y_scale": 0.9999999814507745,
+      "xz_scale": 2.0,
+      "y_scale": 1.0,
       "xz_factor": 80.0,
       "y_factor": 160.0
-    },
-    "top_slide": {
-      "target": -10,
-      "size": 3,
-      "offset": 0
     }
   },
   "default_block": {

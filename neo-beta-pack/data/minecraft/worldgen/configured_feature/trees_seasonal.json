@@ -7,13 +7,13 @@
             "features": [
               {
                 "feature": "minecraft:fancy_oak",
-                "chance": 0.1
+                "chance": 0.3
               }
             ],
             "default": "minecraft:oak"
           },
           "type": "minecraft:random_selector",
-          "name": "minecraft:trees_seasonal_forest"
+          "name": "minecraft:random_selector"
         },
         "decorator": {
           "config": {
@@ -37,7 +37,7 @@
     },
     "decorator": {
       "config": {
-        "count": 8,
+        "count": 5,
         "extra_chance": 0.1,
         "extra_count": 1
       },

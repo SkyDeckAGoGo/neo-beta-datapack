@@ -5,14 +5,11 @@
         "type": "minecraft:noise",
         //-------------------------------------
           //change this value to input a custom seed
-          "seed": 1772835215,
+          "seed": 1,
         //-------------------------------------
         "biome_source": {
           "type": "minecraft:multi_noise",
-        //-------------------------------------
-          //change this value to input a custom seed
-          "seed": 0,
-        //-------------------------------------
+          "seed": 1,
           "humidity_noise": {
             "firstOctave": -7,
             "amplitudes": [
@@ -150,6 +147,6 @@
             }
           ]
         },
-        "settings": "minecraft:overworld"
+        "settings": "minecraft:new_noise"
       }
 }

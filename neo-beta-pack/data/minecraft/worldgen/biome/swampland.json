@@ -68,8 +68,7 @@
   "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
+      "minecraft:cave"
     ]
   },
   "features": [
@@ -85,6 +84,7 @@
     [],
     [],
     [
+      "minecraft:gravel_cleanup",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_coal",
@@ -105,8 +105,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:oak_plains",
-      "minecraft:fancy_oak_plains"
+      "minecraft:trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"

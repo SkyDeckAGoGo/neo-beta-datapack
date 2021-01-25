@@ -67,8 +67,7 @@
     "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_lava"
+      "minecraft:lake_water"
     ],
     [],
     [
@@ -77,6 +76,7 @@
     [],
     [],
     [
+      "minecraft:gravel_cleanup",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_coal",
@@ -98,8 +98,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:oak_plains",
-      "minecraft:fancy_oak_plains"
+      "minecraft:trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -109,8 +108,7 @@
   "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
+      "minecraft:cave"
     ]
   },
   "scale": 0.4,
